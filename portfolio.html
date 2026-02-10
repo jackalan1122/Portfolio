@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Hassan Naveed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">HN</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                <a href="contact.html" class="nav-link nav-link-cta">Contact</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <span class="page-label">Portfolio</span>
+                <h1 class="page-title">Featured Projects</h1>
+                <p class="page-description">A showcase of recent web development projects demonstrating expertise across different technologies and industries.</p>
+            </div>
+        </section>
+
+        <section class="portfolio-section">
+            <div class="container">
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="wordpress">WordPress</button>
+                    <button class="filter-btn" data-filter="custom">Custom Development</button>
+                    <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="wordpress ecommerce">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                <span class="placeholder-text">E-Commerce Store</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">WooCommerce</span>
+                                <span class="tag">Elementor</span>
+                            </div>
+                            <h3>Fashion Boutique Online Store</h3>
+                            <p>Complete e-commerce solution with custom product pages, payment integration, and inventory management.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="custom">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                                <span class="placeholder-text">Custom Web App</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <h3>Project Management Dashboard</h3>
+                            <p>Custom-built task management system with user roles, real-time updates, and analytics.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="wordpress">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                                <span class="placeholder-text">Business Website</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Elementor</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                            <h3>Corporate Business Website</h3>
+                            <p>Professional company website with service pages, blog, contact forms, and SEO optimization.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="wordpress">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                                <span class="placeholder-text">Restaurant Site</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Elementor</span>
+                                <span class="tag">Booking</span>
+                            </div>
+                            <h3>Restaurant & Cafe Website</h3>
+                            <p>Beautiful website featuring online menu, reservation system, and location information.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="custom">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                                <span class="placeholder-text">Booking System</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Calendar API</span>
+                            </div>
+                            <h3>Appointment Booking System</h3>
+                            <p>Custom scheduling platform with calendar integration, email notifications, and admin panel.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="wordpress">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                                <span class="placeholder-text">Portfolio Site</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Elementor</span>
+                                <span class="tag">Portfolio</span>
+                            </div>
+                            <h3>Creative Agency Portfolio</h3>
+                            <p>Stunning portfolio showcase with project galleries, team profiles, and contact integration.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="ecommerce wordpress">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                                <span class="placeholder-text">Digital Products</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">WooCommerce</span>
+                                <span class="tag">Downloads</span>
+                            </div>
+                            <h3>Digital Products Marketplace</h3>
+                            <p>Online store for digital downloads with secure delivery and customer management.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="custom">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                                <span class="placeholder-text">CRM System</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">REST API</span>
+                            </div>
+                            <h3>Customer Relationship Manager</h3>
+                            <p>Full-featured CRM with lead tracking, email integration, and reporting dashboard.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="wordpress">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);">
+                                <span class="placeholder-text">Blog Platform</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Elementor</span>
+                                <span class="tag">Blog</span>
+                            </div>
+                            <h3>Lifestyle Blog & Magazine</h3>
+                            <p>Content-rich blog with custom post layouts, categories, and social media integration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Testimonials</span>
+                    <h2 class="section-title">What Clients Say</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">"Hassan delivered an exceptional website for our business. Professional, responsive, and exactly what we needed. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <strong>Sarah Ahmed</strong>
+                            <span>CEO, Tech Solutions</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">"Working with Hassan was a pleasure. He understood our requirements perfectly and delivered a beautiful e-commerce site that exceeded expectations."</p>
+                        <div class="testimonial-author">
+                            <strong>Ali Khan</strong>
+                            <span>Owner, Fashion Store</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">"Excellent technical skills and great communication. Hassan built a custom solution that perfectly fit our unique business needs."</p>
+                        <div class="testimonial-author">
+                            <strong>Fatima Malik</strong>
+                            <span>Director, Creative Agency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Let's Create Your Project</h2>
+                    <p class="cta-description">Ready to bring your vision to life? Get in touch to discuss your next web project.</p>
+                    <a href="contact.html" class="btn btn-light">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">HN</div>
+                    <p>Building exceptional web experiences</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <a href="mailto:hassannaveed44@gmail.com">hassannaveed44@gmail.com</a>
+                        <a href="tel:+923155032640">+92 315 5032640</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hassan Naveed. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hassan Naveed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">HN</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="contact.html" class="nav-link nav-link-cta active">Contact</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <span class="page-label">Get in Touch</span>
+                <h1 class="page-title">Let's Start Your Project</h1>
+                <p class="page-description">Have a project in mind? Fill out the form below or reach out directly, and I'll get back to you within 24 hours.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <p>Feel free to reach out through any of these channels. I'm always happy to discuss new projects and opportunities.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-detail-content">
+                                    <h3>Email</h3>
+                                    <a href="mailto:hassannaveed44@gmail.com">hassannaveed44@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">📱</div>
+                                <div class="contact-detail-content">
+                                    <h3>Phone</h3>
+                                    <a href="tel:+923155032640">+92 315 5032640</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-detail-content">
+                                    <h3>Location</h3>
+                                    <p>Rawalpindi, Punjab, Pakistan</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">⏰</div>
+                                <div class="contact-detail-content">
+                                    <h3>Availability</h3>
+                                    <p>Monday - Saturday<br>9:00 AM - 6:00 PM PKT</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="response-time">
+                            <div class="response-icon">✓</div>
+                            <p><strong>Quick Response:</strong> I typically respond to all inquiries within 24 hours during business days.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <div class="form-card">
+                            <h2>Send a Message</h2>
+                            <form id="contactForm" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required placeholder="Your name">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="+92 XXX XXXXXXX">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="service">Service Needed</label>
+                                    <select id="service" name="service">
+                                        <option value="">Select a service</option>
+                                        <option value="wordpress">WordPress & Elementor Development</option>
+                                        <option value="custom">Custom Web Application</option>
+                                        <option value="ecommerce">E-Commerce Solution</option>
+                                        <option value="maintenance">Website Maintenance</option>
+                                        <option value="other">Other / Not Sure</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="budget">Estimated Budget</label>
+                                    <select id="budget" name="budget">
+                                        <option value="">Select budget range</option>
+                                        <option value="small">$500 - $1,000</option>
+                                        <option value="medium">$1,000 - $3,000</option>
+                                        <option value="large">$3,000 - $5,000</option>
+                                        <option value="enterprise">$5,000+</option>
+                                        <option value="discuss">Prefer to Discuss</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Project Details *</label>
+                                    <textarea id="message" name="message" required rows="5" placeholder="Tell me about your project, goals, timeline, and any specific requirements..."></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-submit">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-loading">Sending...</span>
+                                </button>
+
+                                <div class="form-status" id="formStatus"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">FAQ</span>
+                    <h2 class="section-title">Common Questions</h2>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>What is your typical project timeline?</h3>
+                        <p>Project timelines vary based on scope and complexity. A simple WordPress site typically takes 2-3 weeks, while custom applications may take 4-8 weeks. I'll provide a detailed timeline during our initial consultation.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you provide ongoing support?</h3>
+                        <p>Yes! I offer various maintenance packages including updates, backups, security monitoring, and technical support to keep your website running smoothly.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What information do you need to get started?</h3>
+                        <p>I'll need details about your business, project goals, preferred features, design preferences, and any existing branding materials. We'll discuss all requirements in our initial consultation.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you work with clients internationally?</h3>
+                        <p>Absolutely! I work with clients worldwide and am comfortable with remote collaboration through video calls, email, and project management tools.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">HN</div>
+                    <p>Building exceptional web experiences</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <a href="mailto:hassannaveed44@gmail.com">hassannaveed44@gmail.com</a>
+                        <a href="tel:+923155032640">+92 315 5032640</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hassan Naveed. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
